@@ -3,7 +3,7 @@
 }
 
 /* div {
-    border: 2px solid black;
+    outline: 2px solid black;
 } */
 
 .form-container {
@@ -26,12 +26,11 @@
 }
 
 .title h2 {
-    word-spacing: 10px;
     margin-top: 15px;
 }
 
 .title p {
-    margin-top: -5px;
+    margin-top: -10px;
 }
 
 form {
@@ -55,9 +54,8 @@ form {
     height: 60px;
     margin: 8px 15px;
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    padding: 0 20px;
+    border-radius: 4px;
+    padding: 0 25px;
 }
 
 .radio-container {
@@ -85,16 +83,20 @@ form {
 
 .rb-text {
     width: 477px;
-    position: relative;
-    left: 27px;
+    margin-left: 30px;
 }
 
 
 .checkbox-continer {
+    /* text-align: center; */
     height: 50px;
     width: 530px;
     font-size: 14px;
     padding: 10px 0px;
+}
+
+.checkbox-continer input {
+    margin-left: 15px;
 }
 
 .button-container {
@@ -110,7 +112,6 @@ button {
     color: white;
     background-color: rgb(40, 210, 209);
     font-size: 20px;
-    font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
 }
