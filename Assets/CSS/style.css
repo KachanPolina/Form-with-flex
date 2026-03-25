@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-/* div {
-    outline: 2px solid black;
-} */
-
 .form-container {
     display: flex;
     flex-direction: column;
@@ -39,17 +35,25 @@ form {
     align-items: center;
 }
 
-.input-comtainer {
+.input-container {
     width: 560px;
     height: 250px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
     
 }
 
-.input-comtainer input {
+.input-field {
+    width: 100%;
+    height: calc(250px / 3);
+    display: flex;
+
+}
+
+.input-container input {
     width: 250px;
     height: 60px;
     margin: 8px 15px;
@@ -61,6 +65,8 @@ form {
 .radio-container {
     height: 260px;
     width: 560px;
+    display: flex;
+    flex-direction: column;
 }
 
 .radiobutton {
